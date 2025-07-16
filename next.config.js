@@ -4,7 +4,7 @@ module.exports = {
     domains: [
       "static2.finnhub.io",
       "image.cnbcfm.com",
-      "data.bloomberglp.com", // ✅ Add this!
+      "data.bloomberglp.com", //  Add this!
     ],
   },
 };
