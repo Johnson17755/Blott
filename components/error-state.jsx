@@ -1,12 +1,8 @@
 "use client";
 
-import Header from "./header";
-
 export default function ErrorState({ error, onRetry }) {
   return (
     <div className="min-h-screen bg-black text-white">
-      <Header />
-
       <main className="px-4 md:px-6">
         <div className="flex flex-col items-start gap-6 pt-4">
           <p className="text-white text-base md:text-lg font-medium">

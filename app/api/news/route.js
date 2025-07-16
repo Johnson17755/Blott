@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
-const API_KEY = "crals9pr01qhk4bqotb0crals9pr01qhk4bqotbg";
-const API_URL = "https://finnhub.io/api/v1/news";
+const API_URL = process.env.API_URL;
+const API_KEY = process.env.API_KEY;
 
 export async function GET() {
   try {
